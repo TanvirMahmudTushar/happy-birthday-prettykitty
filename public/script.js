@@ -22,7 +22,7 @@ function checkPassword() {
         
         setTimeout(() => {
             input.classList.remove('shake');
-            input.placeholder = 'Enter the magic number...';
+            input.placeholder = 'Guess :p';
         }, 500);
     }
 }
