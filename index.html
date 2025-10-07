@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love! 💖</title>
+    <link rel="stylesheet" href="public/styles.css">
+</head>
+<body>
+    <!-- Password Entry Page -->
+    <div id="password-page" class="page active">
+        <div class="password-container">
+            <div class="heart-icon">💝</div>
+            <h1 class="password-title">How much do I love you?</h1>
+            <div class="input-group">
+                <input type="text" id="password-input" placeholder="Enter the magic number..." autocomplete="off">
+                <button id="submit-btn" onclick="checkPassword()">Enter 💕</button>
+            </div>
+            <p class="hint">✨ ✨</p>
+        </div>
+        <div class="floating-hearts"></div>
+    </div>
+
+    <!-- Birthday Wishes Page -->
+    <div id="wishes-page" class="page">
+        <div class="confetti-container"></div>
+        <div class="balloons-container"></div>
+        
+        <div class="wishes-content">
+            <h1 class="birthday-title">
+                🎉 Happy Birthday My Love! 🎉
+            </h1>
+            
+            <div class="video-container">
+                <iframe id="birthday-video" 
+                        src="https://www.youtube.com/embed/d2s1sAMDbPk?autoplay=1&mute=0" 
+                        title="Birthday Wishes Video"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+            
+            <div class="message-box">
+                <p class="birthday-message">
+                    To the most amazing person in my life,
+                    <br><br>
+                    Every moment with you is a gift. Today, on your special day, 
+                    I want you to know how much you mean to me. You bring joy, 
+                    laughter, and love into my life every single day.
+                    <br><br>
+                    I love you 3000! 💖
+                    <br><br>
+                    Happy Birthday, Beautiful! 🎂✨
+                </p>
+            </div>
+            
+            <div class="emojis-decoration">
+                <span class="emoji">🎈</span>
+                <span class="emoji">🎁</span>
+                <span class="emoji">🎂</span>
+                <span class="emoji">🎊</span>
+                <span class="emoji">🎉</span>
+                <span class="emoji">💝</span>
+                <span class="emoji">🌹</span>
+                <span class="emoji">✨</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="public/script.js"></script>
+</body>
+</html>
